@@ -35,8 +35,6 @@ class Module:
                 C[vi, vj] = T.max(Y[vi, vj], T.float32(0))
 
 
-import IPython
-
 # IPython.display.Code(Module.script(), language="python")
 print(Module.script())
 
